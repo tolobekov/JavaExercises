@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "mooc.part1.ch4.Arrays",
+            "projectName": "vol1_3256b342"
+        },
+        {
+            "type": "java",
             "name": "PrintInRange",
             "request": "launch",
             "mainClass": "mooc.part1.ch3.PrintInRange",

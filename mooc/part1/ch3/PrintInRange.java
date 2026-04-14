@@ -10,6 +10,21 @@ public class PrintInRange {
         }
     }
 
+    public static int sum(ArrayList<Integer> numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        return sum;
+    }
+
+    public static void removeLast(ArrayList<String> numbers) {
+        int len = numbers.size();
+        if (len == 0)
+            return;
+        numbers.remove(len - 1);
+    }
+
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(3);
@@ -24,5 +39,18 @@ public class PrintInRange {
 
         System.out.println("The numbers in the range [3, 10]");
         printNumbersInRange(numbers, 3, 10);
+        System.out.println(sum(numbers));
+        ArrayList<String> strings = new ArrayList<>();
+
+        strings.add("First");
+        strings.add("Second");
+        strings.add("Third");
+
+        System.out.println(strings);
+
+        removeLast(strings);
+        removeLast(strings);
+
+        System.out.println(strings);
     }
 }
