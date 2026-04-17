@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "mooc.part1.ch4.Main",
+            "projectName": "vol1_3256b342"
+        },
+        {
+            "type": "java",
+            "name": "Account",
+            "request": "launch",
+            "mainClass": "mooc.part1.ch4.Account",
+            "projectName": "vol1_3256b342"
+        },
+        {
+            "type": "java",
             "name": "Arrays",
             "request": "launch",
             "mainClass": "mooc.part1.ch4.Arrays",

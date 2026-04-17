@@ -1,4 +1,4 @@
-package mooc.part1.ch4;
+package mooc.part1.ch3;
 
 import java.util.Scanner;
 /*
